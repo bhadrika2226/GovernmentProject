@@ -1,0 +1,77 @@
+  [
+    {
+      "name": "Recruitment of Engineering Professionals on Regular Basis",
+      "date_of_notification": "07-01-2025",
+      "date_of_commencement": "07-01-2025",
+      "end_date": "06-02-2025",
+      "apply_link": "https://www.rites.com/Career",
+      "event_type": "Exam",
+      "document_links": [
+        "https://www.rites.com/Upload/Career/187_189_R1_E_N_24_Advertisement_pdf-2025-Jan-02-16-44-49.pdf"
+      ],
+      "details": {
+        "vacancies": {
+          "total": 12,
+          "breakdown": {
+            "Assistant Manager (Finance)": 5,
+            "Assistant Manager (HR)": 7
+          }
+        },
+        "eligibility": {
+          "education": "Full-time Diploma in Electrical/Electrical & Electronics Engineering",
+          "experience": "Minimum 3 years post-qualification experience"
+        },
+        "selection_process": [
+          "Written Test",
+          "Interview"
+        ],
+        "important_dates": {
+          "application_start": "07-01-2025",
+          "application_end": "06-02-2025"
+        },
+        "contact_details": {
+          "email": "recruitment@rites.com",
+          "phone": "+91-124-2571666"
+        }
+      }
+    },
+    {
+      "name": "Expression of Interest for IT Professionals",
+      "date_of_notification": "25-01-2025",
+      "date_of_commencement": "25-01-2025",
+      "end_date": "24-02-2025",
+      "apply_link": "https://www.rites.com/Career",
+      "event_type": "Exam",
+      "document_links": [
+        "https://www.rites.com/Upload/Career/EOI_IMEEC_IT_PROFESSIONAL_2025_pdf-2025-Jan-25-10-17-2.pdf"
+      ],
+      "details": {
+        "vacancies": {
+          "total": "Not specified",
+          "breakdown": {
+            "IT Professionals": "Not specified"
+          }
+        },
+        "eligibility": {
+          "education": "Degree recognized by AICTE from a University incorporated by an Act of Central or State legislature",
+          "experience": "Relevant experience in IT sector"
+        },
+        "selection_process": [
+          "Shortlisting",
+          "Interview"
+        ],
+        "important_dates": {
+          "application_start": "25-01-2025",
+          "application_end": "24-02-2025"
+        },
+        "contact_details": {
+          "email": "recruitment@rites.com",
+          "phone": "+91-124-2571666"
+        }
+      }
+    }
+  ]
+  
+  
+  
+  

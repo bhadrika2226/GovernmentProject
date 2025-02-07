@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Assistant Professor",
+    "date_of_notification": "January 2025",
+    "date_of_commencement": "To Be Announced",
+    "end_date": "To Be Announced",
+    "apply_link": "https://ncert.nic.in/vacancies.php?ln=en",
+    "event_type": "Exam",
+    "document_links": ["https://ncertrec.samarth.edu.in/"],
+    "details": {
+      "eligibility": "Ph.D. in relevant field",
+      "vacancies": 2,
+      "location": "New Delhi"
+    }
+  },
+  {
+    "name": "Associate Professor (Electronics/IT)",
+    "date_of_notification": "January 2025",
+    "date_of_commencement": "To Be Announced",
+    "end_date": "To Be Announced",
+    "apply_link": "https://ncert.nic.in/vacancies.php?ln=en",
+    "event_type": "Exam",
+    "document_links": ["https://ncertrec.samarth.edu.in/"],
+    "details": {
+      "eligibility": "Ph.D. in Electronics/IT",
+      "vacancies": 1,
+      "location": "New Delhi"
+    }
+  }
+]

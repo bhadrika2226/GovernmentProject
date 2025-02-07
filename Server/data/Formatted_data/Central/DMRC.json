@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Requirement of Supervisor (PST) for DMRC O&M work of Mumbai Metro Line-3",
+    "date_of_notification": "28-08-2024",
+    "date_of_commencement": null,
+    "end_date": "08-11-2024",
+    "apply_link": "https://delhimetrorail.com/pages/en/career",
+    "event_type": "Exam",
+    "document_links": [
+      "https://backend.delhimetrorail.com/documents/7834/Advt-187-Sr-Manager-Ops_-_Contract.pdf"
+    ],
+    "details": {
+      "vacancies": {
+        "total": 4,
+        "breakdown": {
+          "UR": 3,
+          "OBC": 1
+        }
+      },
+      "eligibility": {
+        "education": "Three years regular Engineering Diploma in Electrical from a Govt. recognized University/Institute",
+        "experience": "Experience in construction/maintenance of 25 kV Flexible/Rigid OHE or 25 kV AC Traction Substation"
+      },
+      "location": "Mumbai",
+      "contact_details": {
+        "email": "career@dmrc.org",
+        "address": "Executive Director (HR), Delhi Metro Rail Corporation Ltd., Metro Bhawan, Fire Brigade Lane, Barakhamba Road, New Delhi"
+      }
+    }
+  }
+]

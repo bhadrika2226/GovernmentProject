@@ -4,6 +4,7 @@ if(process.env.NODE_ENV !== "production"){
     (await import('dotenv')).config();
   }
 const imageUrl = process.env.DEFAULT_LOGO || "https://thumbs.dreamstime.com/z/not-found-icon-design-line-style-perfect-application-web-logo-presentation-template-not-found-icon-design-line-style-169941512.jpg";
+console.log("Default Logo URL:", imageUrl);
 const response = await fetch(imageUrl);
 const imageBuffer = await response.arrayBuffer();
 const base64String = Buffer.from(imageBuffer).toString('base64');

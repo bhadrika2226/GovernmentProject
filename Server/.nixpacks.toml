@@ -1,0 +1,13 @@
+[phases.setup]
+nixPkgs = ["nodejs_18", "python310"]
+cmds = [
+  "corepack enable",
+  "corepack prepare npm@latest --activate",
+  "npm install"
+]
+
+[phases.build]
+cmds = ["echo 'Building project...'"]
+
+[start]
+cmd = "node Server/index.js"

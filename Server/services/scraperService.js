@@ -1,11 +1,25 @@
-const { spawn } = require("child_process");
-const path = require("path");
+import { spawn } from "child_process";
+import path from "path";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
 
-exports.runScraper = async () => {
+// Fix "__dirname" in ES Modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+export const runScraper = async () => {
     return new Promise((resolve, reject) => {
         console.log("⏳ Running Python scraper...");
 
         const pythonProcess = spawn("python3", [path.join(__dirname, "../../scripts/hello.py")]);
+
+        pythonProcess.stdout.on("data", (data) => {
+            console.log(`📌 Python Output: ${data.toString()}`);
+        });
+
+        pythonProcess.stderr.on("data", (data) => {
+            console.error(`⚠️ Python Error: ${data.toString()}`);
+        });
 
         pythonProcess.on("close", (code) => {
             console.log(`✅ Python script finished with exit code ${code}`);

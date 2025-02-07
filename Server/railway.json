@@ -2,7 +2,9 @@
     "build": {
       "base": "Server", 
       "commands": [
-        "npm install"
+        "corepack enable",  
+      "corepack prepare npm@latest --activate",  
+      "npm install"
       ]
     },
     "deploy": {

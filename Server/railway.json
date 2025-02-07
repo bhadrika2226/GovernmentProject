@@ -1,0 +1,25 @@
+{
+    "build": {
+      "base": "Server", 
+      "commands": [
+        "npm install"
+      ]
+    },
+    "deploy": {
+      "start": "node index.js"
+    },
+    "services": [
+      {
+        "name": "scheduler_15min",
+        "schedule": "*/01 * * * *",
+        "command": "node Server/services/scriptRunner.js"
+      },
+      {
+        "name": "scheduler_50days",
+        "schedule": "0 0 */50 * *",
+        "command": "node Server/services/scriptRunner.js"
+      }
+    ]
+  }
+  
+  

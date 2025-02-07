@@ -4,8 +4,6 @@ if(process.env.NODE_ENV !== "production"){
     (await import('dotenv')).config();
   }
 
-dotenv.config();
-
 const App=async()=>{
     try{
         await db();

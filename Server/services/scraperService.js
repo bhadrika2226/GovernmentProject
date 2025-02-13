@@ -7,11 +7,12 @@ import { dirname } from "path";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-export const runScraper = async () => {
+export  const runScraper = async () => {
     return new Promise((resolve, reject) => {
         console.log("⏳ Running Python scraper...");
 
-        const pythonProcess = spawn("python3", [path.join(__dirname, "../../scripts/hello.py")]);
+        const pythonProcess = spawn("python", [path.join(__dirname, "../../scripts/hello.py")]);
+
 
         pythonProcess.stdout.on("data", (data) => {
             console.log(`📌 Python Output: ${data.toString()}`);

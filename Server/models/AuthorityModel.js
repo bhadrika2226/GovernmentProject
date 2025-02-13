@@ -3,11 +3,16 @@ import mongoose from "mongoose";
 if(process.env.NODE_ENV !== "production"){
     (await import('dotenv')).config();
   }
-const imageUrl = process.env.DEFAULT_LOGO || "https://thumbs.dreamstime.com/z/not-found-icon-design-line-style-perfect-application-web-logo-presentation-template-not-found-icon-design-line-style-169941512.jpg";
-console.log("Default Logo URL:", imageUrl);
-const response = await fetch(imageUrl);
-const imageBuffer = await response.arrayBuffer();
-const base64String = Buffer.from(imageBuffer).toString('base64');
+const imageUrl = process.env.DEFAULT_LOGO;
+let base64String = "";
+try {
+    const validUrl = new URL(imageUrl); // Validate URL first
+    const response = await fetch(validUrl.href);
+    const imageBuffer = await response.arrayBuffer();
+     base64String = Buffer.from(imageBuffer).toString('base64');
+} catch (error) {
+    console.log("Fetch Error:", error);
+}
 
 const AuthoritySchema = new mongoose.Schema({
     name:{

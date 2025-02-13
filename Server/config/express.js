@@ -4,6 +4,7 @@ if(process.env.NODE_ENV !== "production"){
 import express from 'express';
 import routes from '../routes/routes.js';
 import cors from 'cors';
+import './scheduler.js';
 
 const app=express();
 
